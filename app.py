@@ -13,8 +13,9 @@ load_dotenv()
 ## Langsmith Tracking
 #os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 
-LANGCHAIN_API_KEY = "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"
-os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
+#LANGCHAIN_API_KEY = "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"
+os.environ["LANGCHAIN_API_KEY"] = "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"
+#os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_PROJECT"]="Simple Q&A Chatbot With OPENAI"
 
